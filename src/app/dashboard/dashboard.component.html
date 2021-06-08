@@ -1,0 +1,35 @@
+<div class="container-fluid">  
+    <div class="row col-md-12">
+      
+        
+
+    <div class="col-md-6">
+        
+    <figure style="float: left;margin-left:5px ;"> <h3 style="margin-left: 90px;padding: 10px;color: rgb(156, 11, 23);">Yearly Company Sales&Growth</h3>
+      <div style="padding: 10px; margin-left: 95px;">  <b style="color: rgb(155, 16, 219);">x-Axis: Year</b><br/> <b style="color: rgb(155, 16, 219);">y-Axis: Sales</b></div>
+        <app-linechart   [inputdata]="inputdata"></app-linechart></figure>
+   
+    </div>
+
+    
+    <div class="col-md-6">
+        <h3 style="margin-left: 90px;padding: 30px;color: rgb(228, 21, 124);">Sales Percentage by Cars </h3>
+        <figure style="margin-left:65px ;margin-top: 50px;"><app-piechart [inputdata]="PieChartData"></app-piechart></figure>
+    </div>
+
+
+</div>
+<hr/>
+<div class="row col-md-12">
+    <div class="col-md-6">
+        <h3 style="margin-left: 90px;padding: 20px; color: rgb(110, 7, 27);">Stocks Available  </h3>
+        <div style="padding: 10px; margin-left: 95px;">  <b style="color: rgb(155, 16, 219);">x-Axis: Model</b><br/> <b style="color: rgb(155, 16, 219);">y-Axis: In Numbers</b></div>
+        <figure style="float: left;margin-left: 90px;"><app-barchart [inputdata]="BarChartData"></app-barchart></figure>
+    </div>
+    <div class="col-md-6">
+        
+    </div>
+</div>
+
+
+ </div> 
